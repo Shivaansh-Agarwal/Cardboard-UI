@@ -1,0 +1,83 @@
+.toast {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+  width: 25rem;
+}
+
+.toast-top-left {
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+.toast-top-right {
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+.toast-bottom-right {
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+.toast-bottom-left {
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+
+.toast-icon {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toast-icon img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.toast-details {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.toast-close {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes toast-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.toast-list {
+  position: absolute;
+  z-index: 100;
+  right: 1rem;
+  top: 1rem;
+  width: 50rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}

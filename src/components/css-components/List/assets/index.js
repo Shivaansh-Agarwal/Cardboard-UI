@@ -1,0 +1,10 @@
+export { default as prodImg1 } from "./prod-img-1.webp";
+export { default as prodImg2 } from "./prod-img-2.webp";
+export { default as prodImg3 } from "./prod-img-3.webp";
+export { default as prodImg4 } from "./prod-img-4.webp";
+export { default as prodImg5 } from "./prod-img-5.webp";
+export { default as prodImg6 } from "./prod-img-6.webp";
+export { default as prodImg7 } from "./prod-img-7.webp";
+export { default as prodImg8 } from "./prod-img-8.webp";
+export { default as prodImg9 } from "./prod-img-9.webp";
+export { default as prodImg10 } from "./prod-img-10.webp";
