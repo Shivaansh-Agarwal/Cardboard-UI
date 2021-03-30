@@ -13,6 +13,7 @@ import {
   ImageUtility,
   ListUtility,
   NavigationUtility,
+  ModalUtility,
 } from "../../css-components";
 
 const Main = () => {
@@ -31,6 +32,7 @@ const Main = () => {
         <Route path="/docs/image" component={ImageUtility} />
         <Route path="/docs/list" component={ListUtility} />
         <Route path="/docs/navigation" component={NavigationUtility} />
+        <Route path="/docs/modal" component={ModalUtility} />
       </Switch>
     </div>
   );
