@@ -10,6 +10,7 @@ import {
   ListUtility,
   ToastUtility,
   InputFieldUtility,
+  ImageUtility,
 } from "../../css-components";
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
         <Route path="/app/list" component={ListUtility} />
         <Route path="/app/toast" component={ToastUtility} />
         <Route path="/app/input" component={InputFieldUtility} />
+        <Route path="/app/image" component={ImageUtility} />
       </Switch>
     </div>
   );
