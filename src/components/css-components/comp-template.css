@@ -4,6 +4,12 @@
   justify-content: flex-start;
   align-items: center;
 }
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .comp-page {
   margin: 10px 0px;
   display: flex;

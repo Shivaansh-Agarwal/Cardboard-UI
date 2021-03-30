@@ -5,6 +5,14 @@
   align-items: center;
   height: 4rem;
   width: 25rem;
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 1rem 0rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 10px #999;
+}
+.toast-title {
+  font-weight: 600;
 }
 
 .toast-top-left {
@@ -45,11 +53,18 @@
 }
 
 .toast-close {
+  margin-top: 1rem;
   width: 10%;
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+.toast-close button {
+  border: 0px solid transparent;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
 }
 
 @keyframes toast-in-right {

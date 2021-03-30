@@ -29,14 +29,14 @@ const getIconName = function (type) {
 };
 
 const TOASTBGCOLORS = {
-  success: "green",
-  warning: "yellow",
-  error: "red",
-  info: "lightblue",
+  success: "#5cb85c",
+  warning: "#f0ad4e",
+  error: "#d9534f",
+  info: "#5bc0de",
 };
 
 export const Toast = ({ title, description, toastType }) => {
-  const { setToastList } = useToastList();
+  // const { setToastList } = useToastList();
   const iconImg = getIconName(toastType);
   return (
     <div
@@ -53,7 +53,7 @@ export const Toast = ({ title, description, toastType }) => {
       <div className="toast-close">
         <button
           onClick={() => {
-            setToastList([]);
+            // setToastList([]);
           }}
         >
           X
