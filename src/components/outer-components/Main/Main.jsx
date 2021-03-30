@@ -7,7 +7,7 @@ import {
   AlertUtility,
   CardUtility,
   BadgeUtility,
-  ListUtility,
+  GridUtility,
   ToastUtility,
   InputFieldUtility,
   ImageUtility,
@@ -17,16 +17,16 @@ const Main = () => {
   return (
     <div className="main-wrapper">
       <Switch>
-        <Route path="/app/introduction" component={Introduction} />
-        <Route path="/app/avatar" component={AvatarUtility} />
-        <Route path="/app/button" component={ButtonUtility} />
-        <Route path="/app/alert" component={AlertUtility} />
-        <Route path="/app/card" component={CardUtility} />
-        <Route path="/app/badge" component={BadgeUtility} />
-        <Route path="/app/list" component={ListUtility} />
-        <Route path="/app/toast" component={ToastUtility} />
-        <Route path="/app/input" component={InputFieldUtility} />
-        <Route path="/app/image" component={ImageUtility} />
+        <Route path="/docs/introduction" component={Introduction} />
+        <Route path="/docs/avatar" component={AvatarUtility} />
+        <Route path="/docs/button" component={ButtonUtility} />
+        <Route path="/docs/alert" component={AlertUtility} />
+        <Route path="/docs/card" component={CardUtility} />
+        <Route path="/docs/badge" component={BadgeUtility} />
+        <Route path="/docs/grid" component={GridUtility} />
+        <Route path="/docs/toast" component={ToastUtility} />
+        <Route path="/docs/input" component={InputFieldUtility} />
+        <Route path="/docs/image" component={ImageUtility} />
       </Switch>
     </div>
   );

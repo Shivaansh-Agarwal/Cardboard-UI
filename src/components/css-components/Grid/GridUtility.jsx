@@ -4,7 +4,7 @@ import {
   CompPageTemplate,
   CompSectionTemplate,
 } from "../CompPageTemplates.jsx";
-import { ListProducts } from "./List.jsx";
+import { Grid } from "./Grid.jsx";
 import {
   prodImg1,
   prodImg2,
@@ -18,13 +18,13 @@ import {
   prodImg10,
 } from "./assets";
 
-const ListUtility = () => {
+const GridUtility = () => {
   useEffect(() => {
     hljs.highlightAll();
   }, []);
-  return <CompPageTemplate pageHeading={"Lists"} sections={[section1]} />;
+  return <CompPageTemplate pageHeading={"Grids"} sections={[section1]} />;
 };
-export default ListUtility;
+export default GridUtility;
 
 const productsList = [
   {
@@ -321,12 +321,12 @@ const productsList = [
 
 const section1Preview = (
   <>
-    <ListProducts productsList={productsList} />
+    <Grid productsList={productsList} />
   </>
 );
 const section1Code = ``;
 const section1 = CompSectionTemplate({
-  sectionHeading: "Product Lists",
+  sectionHeading: "Product Grid",
   sectionDesc: "",
   preview: section1Preview,
   code: section1Code,

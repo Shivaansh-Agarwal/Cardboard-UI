@@ -1,12 +1,12 @@
 import React from "react";
 import { CardProductItem } from "../Card/Card.jsx";
 
-export const ListProducts = ({ productsList }) => {
+export const Grid = ({ productsList }) => {
   return (
-    <div className="list-products">
+    <div className="grid-products">
       {productsList.map((productData) => {
         return (
-          <div key={productData.item.id} className="prod-list-card-wrapper">
+          <div key={productData.item.id} className="prod-grid-card-wrapper">
             <CardProductItem item={productData.item} />
           </div>
         );

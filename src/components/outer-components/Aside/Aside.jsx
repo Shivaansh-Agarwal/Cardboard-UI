@@ -4,45 +4,45 @@ import { Link } from "react-router-dom";
 const Aside = () => {
   return (
     <aside className="aside-wrapper left-nav">
-      <Link to="/app/introduction" className="item link link-big">
+      <Link to="/docs/introduction" className="item link link-big">
         Introduction
       </Link>
       <section className="item">
         <h3 className="section-header">Elements</h3>
-        <Link to="/app/button" className="link link-small">
+        <Link to="/docs/button" className="link link-small">
           Button
         </Link>
-        <Link to="/app/image" className="link link-small">
+        <Link to="/docs/image" className="link link-small">
           Image
         </Link>
-        <Link to="/app/input" className="link link-small">
+        <Link to="/docs/input" className="link link-small">
           Input
         </Link>
       </section>
       <section className="item">
         <h3 className="section-header">Components</h3>
-        <Link to="/app/avatar" className="link link-small">
+        <Link to="/docs/avatar" className="link link-small">
           Avatar
         </Link>
-        <Link to="/app/alert" className="link link-small">
+        <Link to="/docs/alert" className="link link-small">
           Alert
         </Link>
-        <Link to="/app/badge" className="link link-small">
+        <Link to="/docs/badge" className="link link-small">
           Badge
         </Link>
-        <Link to="/app/card" className="link link-small">
+        <Link to="/docs/card" className="link link-small">
           Card
         </Link>
-        <Link to="/app/list" className="link link-small">
-          List
+        <Link to="/docs/grid" className="link link-small">
+          Grid
         </Link>
-        <Link to="/app/navigation" className="link link-small">
+        <Link to="/docs/navigation" className="link link-small">
           Navigation
         </Link>
-        <Link to="/app/modal" className="link link-small">
+        <Link to="/docs/modal" className="link link-small">
           Modal
         </Link>
-        <Link to="/app/toast" className="link link-small">
+        <Link to="/docs/toast" className="link link-small">
           Toast
         </Link>
       </section>
