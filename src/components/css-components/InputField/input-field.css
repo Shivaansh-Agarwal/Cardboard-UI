@@ -1,0 +1,13 @@
+.input-text {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.input-search {
+  background-color: white;
+  background-image: url("./assets/search-black.svg");
+  background-position: 0.5rem 0.5rem;
+  background-repeat: no-repeat;
+  padding-left: 2.2rem;
+}

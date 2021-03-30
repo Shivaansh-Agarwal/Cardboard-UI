@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Route } from "react-router-dom";
 import { Header, Aside, Main } from "./components/outer-components";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
   return (
@@ -9,10 +9,10 @@ const App = () => {
         <Header />
       </div>
       <div className="main-segment">
-        <Route>
+        <Router>
           <Aside />
           <Main />
-        </Route>
+        </Router>
       </div>
     </div>
   );

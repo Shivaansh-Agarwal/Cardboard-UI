@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import hljs from "highlight.js";
-import {
-  CompPageTemplate,
-  CompSectionTemplate,
-} from "../CompPageTemplates.jsx";
-import { ButtonRegular } from "../Buttons/Button.jsx";
+// import {
+//   CompPageTemplate,
+//   CompSectionTemplate,
+// } from "../CompPageTemplates.jsx";
+// import { ButtonRegular } from "../Buttons/Button.jsx";
 import { Toast, ToastList } from "./Toast.jsx";
 import { useToastList } from "./toast-context.js";
 

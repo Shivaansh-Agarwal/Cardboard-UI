@@ -3,6 +3,7 @@
 @import url("./components/outer-components/Aside/aside.css");
 @import url("./components/outer-components/Header/header.css");
 @import url("./components/outer-components/Main/main.css");
+@import url("./components//outer-components/LandingPage/landing-page.css");
 
 @import url("./components/css-components/comp-template.css");
 @import url("./components//css-components/Introduction/introduction.css");
@@ -24,7 +25,7 @@ body {
 .top-segment {
   position: fixed;
   top: 0;
-  height: 75px;
+  height: 5rem;
   width: 100%;
   z-index: 10;
 }
@@ -33,7 +34,7 @@ body {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 5rem;
 }
 /*--- APP END---*/
 

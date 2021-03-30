@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import imgCardboard from "../../../assets/cardboard.svg";
 
 const Header = () => {
   return (
     <header className="header-wrapper">
       <img src={imgCardboard} alt="Logo" className="logo" />
-      <div className="logo-name">
+      <Link className="logo-name" to="/">
         Cardboard<span className="logo-name-red"> UI</span>
-      </div>
+      </Link>
     </header>
   );
 };

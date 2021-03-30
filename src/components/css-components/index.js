@@ -6,3 +6,4 @@ export { default as CardUtility } from "./Card/CardUtility.jsx";
 export { default as BadgeUtility } from "./Badge/BadgeUtility.jsx";
 export { default as ListUtility } from "./List/ListUtility.jsx";
 export { default as ToastUtility } from "./Toast/ToastUtility.jsx";
+export { default as InputFieldUtility } from "./InputField/InputFieldUtility.jsx";
