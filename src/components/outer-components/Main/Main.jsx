@@ -4,7 +4,7 @@ import {
   Introduction,
   AvatarUtility,
   ButtonUtility,
-  Alert,
+  AlertUtility,
   CardUtility,
   BadgeUtility,
   ListUtility,
@@ -20,7 +20,7 @@ const Main = () => {
         <Route path="/app/introduction" component={Introduction} />
         <Route path="/app/avatar" component={AvatarUtility} />
         <Route path="/app/button" component={ButtonUtility} />
-        <Route path="/app/alert" component={Alert} />
+        <Route path="/app/alert" component={AlertUtility} />
         <Route path="/app/card" component={CardUtility} />
         <Route path="/app/badge" component={BadgeUtility} />
         <Route path="/app/list" component={ListUtility} />
