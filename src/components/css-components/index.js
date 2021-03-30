@@ -1,5 +1,5 @@
 export { default as Introduction } from "./Introduction/Introduction.jsx";
-export { default as Avatar } from "./Avatar/Avatar.jsx";
+export { default as AvatarUtility } from "./Avatar/AvatarUtility.jsx";
 export { default as ButtonUtility } from "./Buttons/ButtonUtility.jsx";
 export { default as Alert } from "./Alert/Alert.jsx";
 export { default as CardUtility } from "./Card/CardUtility.jsx";

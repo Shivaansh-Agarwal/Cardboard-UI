@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import {
   Introduction,
-  Avatar,
+  AvatarUtility,
   ButtonUtility,
   Alert,
   CardUtility,
@@ -18,7 +18,7 @@ const Main = () => {
     <div className="main-wrapper">
       <Switch>
         <Route path="/app/introduction" component={Introduction} />
-        <Route path="/app/avatar" component={Avatar} />
+        <Route path="/app/avatar" component={AvatarUtility} />
         <Route path="/app/button" component={ButtonUtility} />
         <Route path="/app/alert" component={Alert} />
         <Route path="/app/card" component={CardUtility} />
