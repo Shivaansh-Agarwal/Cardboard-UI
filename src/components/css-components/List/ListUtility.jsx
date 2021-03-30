@@ -78,7 +78,9 @@ const section2 = CompSectionTemplate({
 
 const section3Preview = (
   <>
-    <StackedList1 itemList={itemList} />
+    <div style={{ marginBottom: "1rem" }}>
+      <StackedList1 itemList={itemList} />
+    </div>
     <StackedList1 itemList={itemList} isBorder={false} />
   </>
 );
@@ -94,11 +96,14 @@ const section3 = CompSectionTemplate({
   sectionDesc: "",
   preview: section3Preview,
   code: section3Code,
+  isFlexRow: false,
 });
 
 const section4Preview = (
   <>
-    <StackedList2 itemList={itemList} />
+    <div style={{ marginBottom: "1rem" }}>
+      <StackedList2 itemList={itemList} />
+    </div>
     <StackedList2 itemList={itemList} isBorder={false} />
   </>
 );
@@ -115,4 +120,5 @@ const section4 = CompSectionTemplate({
   sectionDesc: "",
   preview: section4Preview,
   code: section4Code,
+  isFlexRow: false,
 });
