@@ -49,7 +49,7 @@ const LandingPage = () => {
         <div className="landing-buttons">
           <button
             onClick={() => {
-              history.push("/app/introduction");
+              history.push("/docs/introduction");
             }}
             className="btn btn-primary"
           >
