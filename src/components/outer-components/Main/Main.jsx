@@ -12,6 +12,7 @@ import {
   InputFieldUtility,
   ImageUtility,
   ListUtility,
+  NavigationUtility,
 } from "../../css-components";
 
 const Main = () => {
@@ -29,6 +30,7 @@ const Main = () => {
         <Route path="/docs/input" component={InputFieldUtility} />
         <Route path="/docs/image" component={ImageUtility} />
         <Route path="/docs/list" component={ListUtility} />
+        <Route path="/docs/navigation" component={NavigationUtility} />
       </Switch>
     </div>
   );

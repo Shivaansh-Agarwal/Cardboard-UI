@@ -11,7 +11,7 @@ export const InputField = ({ placeholder, text }) => {
   );
 };
 
-export const InputSearchField = ({ placeholder, text }) => {
+export const InputSearchField = ({ placeholder = "Search...", text }) => {
   return (
     <input
       type="text"
