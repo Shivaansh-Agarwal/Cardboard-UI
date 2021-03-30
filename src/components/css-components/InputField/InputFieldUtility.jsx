@@ -32,6 +32,7 @@ const section1Preview = (
 const section1Code = `<InputField 
   placeholder="Enter Username" 
 />
+
 <InputField
   placeholder="Enter Username"
   text="Lorem ipsum dolor sit amet."

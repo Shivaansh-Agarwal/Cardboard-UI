@@ -14,3 +14,18 @@ export const Grid = ({ productsList }) => {
     </div>
   );
 };
+
+export const GridDualColumns = ({ itemsList }) => {
+  return (
+    <table className="grid-2-cols">
+      {itemsList.map((item, index) => {
+        return (
+          <tr key={index} className="grid-2-cols-row">
+            <td className="grid-2-cols-title">{item.title}</td>
+            <td className="grid-2-cols-text">{item.text}</td>
+          </tr>
+        );
+      })}
+    </table>
+  );
+};

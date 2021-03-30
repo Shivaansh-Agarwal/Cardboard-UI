@@ -11,6 +11,7 @@ import {
   ToastUtility,
   InputFieldUtility,
   ImageUtility,
+  ListUtility,
 } from "../../css-components";
 
 const Main = () => {
@@ -27,6 +28,7 @@ const Main = () => {
         <Route path="/docs/toast" component={ToastUtility} />
         <Route path="/docs/input" component={InputFieldUtility} />
         <Route path="/docs/image" component={ImageUtility} />
+        <Route path="/docs/list" component={ListUtility} />
       </Switch>
     </div>
   );

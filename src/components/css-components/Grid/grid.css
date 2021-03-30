@@ -17,3 +17,23 @@
   grid-gap: 20px;
   grid-auto-flow: dense;
 }
+
+.grid-2-cols {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.grid-2-cols-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.grid-2-cols-row:not(:first-child) {
+  margin-top: 0.4rem;
+}
+.grid-2-cols-title {
+  width: 20%;
+  color: #878787;
+}
+.grid-2-cols-text {
+  width: 80%;
+}

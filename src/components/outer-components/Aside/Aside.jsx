@@ -33,6 +33,9 @@ const Aside = () => {
         <Link to="/docs/card" className="link link-small">
           Card
         </Link>
+        <Link to="/docs/list" className="link link-small">
+          List
+        </Link>
         <Link to="/docs/grid" className="link link-small">
           Grid
         </Link>

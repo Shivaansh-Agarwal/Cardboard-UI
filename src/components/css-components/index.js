@@ -8,3 +8,4 @@ export { default as GridUtility } from "./Grid/GridUtility.jsx";
 export { default as ToastUtility } from "./Toast/ToastUtility.jsx";
 export { default as InputFieldUtility } from "./InputField/InputFieldUtility.jsx";
 export { default as ImageUtility } from "./Image/ImageUtility.jsx";
+export { default as ListUtility } from "./List/ListUtility.jsx";
