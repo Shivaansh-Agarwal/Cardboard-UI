@@ -12,7 +12,7 @@ ReactDOM.render(
       <Router>
         <Switch>
           <Route path="/" exact component={LandingPage} />
-          <Route path="/app" component={App} />
+          <Route path="/docs" component={App} />
         </Switch>
       </Router>
     </ToastProvider>
