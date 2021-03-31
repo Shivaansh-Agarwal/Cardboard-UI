@@ -3,11 +3,11 @@
 }
 
 .alert {
-  padding: 15px;
-  margin: 18px 1px;
+  padding: 0.93rem;
+  margin: 1.125rem 0.0625rem;
   width: 100%;
-  border-radius: 4px;
-  border: 1px solid;
+  border-radius: 0.24rem;
+  border: 0.0625rem solid;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
