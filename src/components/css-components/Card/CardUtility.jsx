@@ -8,6 +8,7 @@ import { CardOffer, CardProductItem } from "./Card.jsx";
 import imgCardOffer1 from "./assets/imgCardOffer1.jpg";
 import imgCardOffer2 from "./assets/imgCardOffer2.jpg";
 import imgCardOffer3 from "./assets/imgCardOffer3.jpg";
+import proditem1 from "./assets/proditem1.webp";
 
 const CardUtility = () => {
   useEffect(() => {
@@ -118,8 +119,7 @@ const dummyData = [
         totalRatings: 95200,
       },
       images: {
-        imgURL:
-          "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11363116/2020/3/5/b31572e2-4df5-4b92-8907-2b0914c402391583411723736-WROGN-Men-Tshirts-641583411722298-1.jpg",
+        imgURL: proditem1,
       },
       badge: {
         tagName: "BESTSELLER",
@@ -135,6 +135,34 @@ const section4Preview = (
   </>
 );
 const section4Code = `<CardProductItem item={data}/>
+
+data={
+  id: "awkdkjl2ed-aelkaelk-2121",
+  prod: {
+    prodName: "Gabanna T-Shirt",
+    prodDesc: "Men's Summer Slim Fit ada dwojdwj wjowd",
+    brand: "Gabanna",
+  },
+  price: {
+    currPrice: "16000",
+    origPrice: "20000",
+    discount: "20",
+    discountText: "20% off",
+    discountBadgeBgColor: "",
+  },
+  ratings: {
+    avgRatings: "4.4",
+    totalRatings: 95200,
+  },
+  images: {
+    imgURL: "https://assets.abc.jpg",
+  },
+  badge: {
+    tagName: "BESTSELLER",
+    badgeBgColor: "orange",
+    showBadge: true,
+  },
+}
 `;
 const section4 = CompSectionTemplate({
   sectionHeading: "Product Card Item",
