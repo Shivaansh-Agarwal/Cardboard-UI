@@ -51,7 +51,7 @@ const LandingPage = () => {
             onClick={() => {
               history.push("/docs/introduction");
             }}
-            className="btn btn-primary"
+            className="btn-get-started"
           >
             Get Started
           </button>
@@ -59,11 +59,12 @@ const LandingPage = () => {
             onClick={() => {
               window.open("https://github.com/Shivaansh-Agarwal/CardboardUI");
             }}
-            className="btn btn-outline-secondary"
+            className="btn-source-code"
           >
             Source Code
           </button>
         </div>
+        <div className="author-desc">By - Shivaansh Agarwal</div>
       </main>
     </div>
   );

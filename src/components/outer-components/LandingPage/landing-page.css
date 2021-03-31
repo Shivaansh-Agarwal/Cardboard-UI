@@ -48,6 +48,7 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 3rem;
+  width: 8rem;
 }
 .landing-nav-right img {
   width: 2.2rem;
@@ -79,13 +80,40 @@
   color: azure;
 }
 .landing-buttons {
-  min-width: 15%;
+  min-width: 20rem;
   margin-top: 2rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
 }
+
+.btn-get-started {
+  padding: 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px #000;
+  color: white;
+  border-radius: 0.5rem;
+  background-color: #3b2a3a;
+  outline: none;
+}
+.btn-source-code {
+  padding: 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px #000;
+  outline: none;
+}
+.author-desc {
+  margin-top: 2rem;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -104,5 +132,29 @@
   }
   .landing-nav-right {
     margin-right: 1rem;
+    width: 6rem;
+  }
+  .landing-nav-right img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .landing-logo-main {
+    width: 7rem;
+    height: 7rem;
+  }
+  .landing-desc {
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    max-width: 35rem;
+    font-size: 1.2rem;
+    color: azure;
+  }
+  .landing-buttons {
+    min-width: 15rem;
+  }
+  .btn-get-started,
+  .btn-source-code {
+    padding: 0.6rem;
+    font-size: 0.7rem;
   }
 }

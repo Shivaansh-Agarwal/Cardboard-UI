@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imgGithub from "../../../assets/icon-github.svg";
+import imgTwitter from "../../../assets/icon-twitter.svg";
+import imgLinkedin from "../../../assets/icon-linkedin.svg";
 
 const Aside = () => {
   return (
@@ -48,6 +51,32 @@ const Aside = () => {
         <Link to="/docs/toast" className="link link-small">
           Toast
         </Link>
+      </section>
+      <section className="aside-author">
+        <div className="aside-name">By - Shivaansh Agarwal</div>
+        <div className="aside-social">
+          <a
+            href="https://twitter.com/Shivansh_97"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={imgTwitter} alt="Twitter Icon" />
+          </a>
+          <a
+            href="https://github.com/Shivaansh-Agarwal"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={imgGithub} alt="Github Icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shivaansh-agarwal/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={imgLinkedin} alt="Linkedin Icon" />
+          </a>
+        </div>
       </section>
     </aside>
   );

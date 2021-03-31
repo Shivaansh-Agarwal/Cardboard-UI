@@ -63,3 +63,30 @@
 .left-nav .link-big:hover {
   background: rgba(255, 255, 255, 0.08);
 }
+
+.aside-author {
+  padding-top: 0.5rem;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.08);
+  position: fixed;
+  bottom: 0;
+  font-size: 0.8rem;
+  /* color: #489550; */
+  color: rgba(255, 255, 255, 0.7);
+}
+.aside-name {
+  padding-left: 0.5rem;
+}
+.aside-social {
+  margin-top: 0.3rem;
+  padding-left: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aside-social img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
