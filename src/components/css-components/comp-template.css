@@ -1,0 +1,62 @@
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comp-page {
+  margin: 10px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+}
+.page-heading {
+  color: brown;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.comp-section {
+  width: 100%;
+}
+.comp-section-heading {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.comp-preview {
+  background-color: #f6f7fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  max-width: 100%;
+}
+.comp-section-desc {
+  color: black;
+}
+.comp-clipboard {
+  padding: 0.2rem 0rem 1rem 0rem;
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid transparent;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comp-clipboard pre {
+  width: 100%;
+}
+.comp-clipboard code {
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  padding: 20px;
+}

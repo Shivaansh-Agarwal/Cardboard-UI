@@ -1,0 +1,92 @@
+.comp-preview .alert {
+  margin: 0.0625rem 0.0625rem;
+}
+
+.alert {
+  padding: 0.93rem;
+  margin: 1.125rem 0.0625rem;
+  width: 100%;
+  border-radius: 0.24rem;
+  border: 0.0625rem solid;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-success {
+  color: rgb(60, 118, 61);
+  background-color: rgb(223, 240, 216);
+  border-color: rgb(214, 233, 198);
+}
+.alert-success button {
+  color: #bed8b9;
+}
+.alert-success button:hover {
+  color: rgb(60, 118, 61);
+}
+.alert-success .alert-link {
+  color: rgb(60, 118, 61);
+}
+
+.alert-danger {
+  color: rgb(169, 68, 66);
+  background-color: rgb(242, 222, 222);
+  border-color: rgb(235, 204, 209);
+}
+.alert-danger button {
+  color: #e3bfbf;
+}
+.alert-danger button:hover {
+  color: rgb(169, 68, 66);
+}
+.alert-danger .alert-link {
+  color: rgb(169, 68, 66);
+}
+
+.alert-info {
+  color: rgb(49, 112, 143);
+  background-color: rgb(217, 237, 247);
+  border-color: rgb(188, 232, 241);
+}
+.alert-info button {
+  color: #b7d4e2;
+}
+.alert-info button:hover {
+  color: rgb(49, 112, 143);
+}
+.alert-info .alert-link {
+  color: rgb(49, 112, 143);
+}
+
+.alert-warning {
+  color: rgb(138, 109, 59);
+  background-color: rgb(252, 248, 227);
+  border-color: rgb(250, 235, 204);
+}
+.alert-warning button {
+  color: #e5dcc1;
+}
+.alert-warning button:hover {
+  color: rgb(138, 109, 59);
+}
+.alert-warning .alert-link {
+  color: rgb(138, 109, 59);
+}
+
+.alert-btn-close {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px solid transparent;
+  outline: none;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.alert-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+.alert-link:hover {
+  text-decoration: underline;
+}

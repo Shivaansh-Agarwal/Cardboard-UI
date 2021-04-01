@@ -1,0 +1,29 @@
+.header-wrapper {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 3rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+header .logo-name {
+  margin-left: 0.8rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header .logo-name-red {
+  font-weight: 700;
+  color: brown;
+}

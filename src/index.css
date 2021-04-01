@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("./components/outer-components/Aside/aside.css");
+@import url("./components/outer-components/Header/header.css");
+@import url("./components/outer-components/Main/main.css");
+@import url("./components//outer-components/LandingPage/landing-page.css");
+
+@import url("./components/css-components/comp-template.css");
+@import url("./components//css-components/Introduction/introduction.css");
+@import url("./components/css-components/components.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*--- APP START ---*/
+.App {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.top-segment {
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  width: 100%;
+  z-index: 10;
+}
+.main-segment {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5rem;
+}
+/*--- APP END---*/
+
+.hide {
+  display: none;
+}
+
+td.hljs-ln-code {
+  white-space: pre-wrap;
+}

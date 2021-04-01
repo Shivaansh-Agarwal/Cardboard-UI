@@ -1,0 +1,11 @@
+.main-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 250px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+}

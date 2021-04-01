@@ -1,0 +1,39 @@
+/*
+    CSS-Grid for Product Cards - GEM of an article...
+    https://css-tricks.com/responsive-grid-magazine-layout-in-just-20-lines-of-css/
+*/
+
+.grid-products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.grid-products .prod-grid-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.grid-2-cols {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.grid-2-cols-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.grid-2-cols-row:not(:first-child) {
+  margin-top: 0.4rem;
+}
+.grid-2-cols-title {
+  width: 20%;
+  color: #878787;
+}
+.grid-2-cols-text {
+  width: 80%;
+}
